@@ -1,0 +1,12 @@
+.sun-container{
+    height: 120px;
+    width: 120px;
+    background: linear-gradient(to bottom,#faac27, #ffa200);
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -4px 2px 56px #F9c05F;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

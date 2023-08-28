@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Earth } from './components/earth';
+import { Jupiter } from './components/jupiter';
+import { Mars } from './components/mars';
+import { Mercury } from './components/mercury';
+import { Neptune } from './components/neptune';
+import { Saturn } from './components/saturn';
+import { Sun } from './components/sun';
+import { Uranus } from './components/uranus';
+import { Venus } from './components/venus';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Sun/>
+     <Mercury/>
+     <Venus/>
+     <Earth/>
+     <Mars/>
+     <Jupiter/>
+     <Saturn/>
+     <Uranus/>
+     <Neptune/>
+     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     </div>
   );
 }
