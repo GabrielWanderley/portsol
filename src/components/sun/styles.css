@@ -9,4 +9,17 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 2; 
+  
+}
+
+.modall{  
+    position: fixed;
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    top: 15%;
+    left: 33.5%;
+    z-index: 10;
 }

@@ -5,7 +5,7 @@ export function Venus(){
         <div>
             <div className="venus-outline">
                 <div className="venus">
-                    <p>
+                    <p className='p-venus'>
                         Venus
                     </p>
                 </div>

@@ -10,7 +10,7 @@ export function Earth(){
 
                     </div>
                 </div>
-                 <p>Earth</p>
+                 <p className='p-terra'>Earth</p>
             </div>
         </div>
       </div>

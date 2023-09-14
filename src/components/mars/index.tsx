@@ -5,7 +5,7 @@ export function Mars(){
         <div>
             <div className="mars-outline">
                 <div className="mars">
-                    <p>
+                    <p className='p-mart'>
                       Mars
                     </p>
                 </div>

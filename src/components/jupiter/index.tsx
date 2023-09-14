@@ -5,7 +5,7 @@ export function Jupiter(){
         <div>
             <div className="jupiter-outline">
                 <div className="jupiter">
-                    <p>
+                    <p className='p-jupiter'>
                         Jupiter
                     </p>
                 </div>

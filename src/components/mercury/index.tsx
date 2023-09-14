@@ -5,7 +5,7 @@ export function Mercury(){
       <div>
         <div className='mercury-outline'>
             <div className='mercury'>
-                 <p>Mercury</p>
+                 <p className='p-mercu'>Mercury</p>
             </div>
         </div>
       </div>
