@@ -1,18 +1,20 @@
 import './App.css';
-import { Earth } from './components/earth';
-import { Jupiter } from './components/jupiter';
-import { Mars } from './components/mars';
-import { Mercury } from './components/mercury';
-import { Neptune } from './components/neptune';
-import { Saturn } from './components/saturn';
-import { Sun } from './components/sun';
-import { Uranus } from './components/uranus';
-import { Venus } from './components/venus';
+import { SolarSystem } from './components/SolarSystem';
+// import { Earth } from './components/earth';
+// import { Jupiter } from './components/jupiter';
+// import { Mars } from './components/mars';
+// import { Mercury } from './components/mercury';
+// import { Neptune } from './components/neptune';
+// import { Saturn } from './components/saturn';
+// import { Sun } from './components/sun';
+// import { Uranus } from './components/uranus';
+// import { Venus } from './components/venus';
 
 function App() {
   return (
     <div className="App">
-     <Sun/>
+    <SolarSystem/>
+     {/* <Sun/>
      <Mercury/>
      <Venus/>
      <Earth/>
@@ -20,7 +22,7 @@ function App() {
      <Jupiter/>
      <Saturn/>
      <Uranus/>
-     <Neptune/>
+     <Neptune/> */}
      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

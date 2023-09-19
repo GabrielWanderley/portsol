@@ -18,9 +18,7 @@ export function Neptune(){
       setModalIsOpen(false);
     }
     return(
-        <div>
-            <div className="neptune-outline">
-                <div className="neptune"onClick={openModal}>
+        <div>          
           <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -30,6 +28,9 @@ export function Neptune(){
         <p>Conteúdo do modal...</p>
         <button onClick={closeModal}>Fechar</button>
       </Modal>
+            <div className="neptune-outline">
+                <div className="neptune"onClick={openModal}>
+
                     <p className='p-neptune'>
                         
                     </p>

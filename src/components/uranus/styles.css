@@ -8,6 +8,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    cursor: pointer;
 }
 .uranus{
     height: 30px;
@@ -21,6 +22,7 @@
     top: 48%;  
     transform: translate(-50%, -50%);
     animation: orbit10 200s linear infinite;
+    cursor: pointer;
     cursor: pointer;
     
 }

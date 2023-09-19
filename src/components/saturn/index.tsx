@@ -20,10 +20,8 @@ export function Saturn(){
     }
 
     return(
-        <div>
-            <div className="saturn-outline">
-                <div className="saturn"onClick={openModal}>
-          <Modal
+        <div>         
+      <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Exemplo Modal"
@@ -32,6 +30,9 @@ export function Saturn(){
         <p>Conteúdo do modal...</p>
         <button onClick={closeModal}>Fechar</button>
       </Modal>
+            <div className="saturn-outline">
+                <div className="saturn">
+
                     <p className='p-saturn'>
                         Saturn
                     </p>
