@@ -1,4 +1,5 @@
 import './App.css';
+import { NavBar } from './components/NavBar';
 import { SolarSystem } from './components/SolarSystem';
 // import { Earth } from './components/earth';
 // import { Jupiter } from './components/jupiter';
@@ -13,6 +14,7 @@ import { SolarSystem } from './components/SolarSystem';
 function App() {
   return (
     <div className="App">
+    <NavBar/>
     <SolarSystem/>
      {/* <Sun/>
      <Mercury/>

@@ -1,0 +1,68 @@
+
+
+*{
+    margin: 0px;
+    
+}
+
+.bot{
+    background-color: rgb(3, 0, 42);
+    max-height: 40px;
+    justify-content: center;
+    box-shadow: -4px 2px 56px rgb(8, 0, 93);
+   
+}
+.planets-t{
+display: inline-block;
+margin-left: 35px;
+cursor: pointer;
+transition: 0.7s;
+max-height: 45px;
+font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+
+
+}
+.planets-t span{
+      color:rgb(3, 0, 42) ;
+      transition: 0s;
+    }
+    .planets-t:hover span{
+        color:rgb(5, 0, 75) ;
+      }
+.planets-t:hover{
+    max-height: 45px;
+    background-color: rgb(5, 0, 75) ;
+
+}
+.soll{
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to bottom,#faac27, #ffa200);
+    border-radius: 48%;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+}
+.mercuri{
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to bottom,#525252, #9e9e9e);
+    border-radius: 50%;
+   
+    position: relative;
+    display: inline-block;
+}
+.imag{
+   height: 20px; 
+   position: relative;
+   display: inline-block;
+}
+
+.text{
+    color: beige;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    
+}

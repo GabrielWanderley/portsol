@@ -1,3 +1,10 @@
+/* 
+.solar{
+
+
+} */
+
+
 /* sol e modal */
 
 .z{
@@ -16,16 +23,19 @@
     transform: translate(-50%,-50%);
     cursor: pointer;
     z-index: 14; 
-  
+    margin-top: 20px;
+    
 }
 
 .modall{  
-    position: fixed;
-    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(3, 0, 42);
     height: 500px;
     width: 500px;
-    top: 15%;
-    left: 33.5%;
+    color: beige;
     z-index: 10;
 }
 
@@ -45,6 +55,7 @@
     transform: translate(-50%, -50%);
     animation: orbit2 6s linear infinite;
     cursor: pointer;
+    
 }
 
 @keyframes orbit2{
@@ -63,6 +74,8 @@
     width: 140px;
     cursor: pointer;
     z-index: 13;
+    margin-top: 20px;
+    
 }
 
 
@@ -80,6 +93,8 @@
     transform: translate(-50%, -50%);
     z-index: 12;
     cursor: pointer;;
+    margin-top: 20px;
+    
 }
 .venus{
     height: 40px;
@@ -94,6 +109,7 @@
     transform: translate(-50%, -50%);
     animation: orbit3 10s linear infinite;
     cursor: pointer;
+    
 }
 @keyframes orbit3{
     from{ transform: rotate(0deg)translate(100px) rotate(0deg);}
@@ -117,6 +133,7 @@
     transform: translate(-50%, -50%);
     animation: orbit4 20s linear infinite;
     cursor: pointer;
+    
 }
 @keyframes orbit4{
     from{ transform: rotate(0deg)translate(150px) rotate(0deg);}
@@ -133,6 +150,8 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 11;
+    margin-top: 20px;
+    
 }
 .earth-circle{
     height: 65px;
@@ -142,6 +161,7 @@
     left: -8px;
     top: -8px;
     border-radius: 40px;
+    
 }
 .earth-inner{
     height: 10px;
@@ -153,6 +173,7 @@
     left: 45%;
     top: 45%;
     animation: orbit5 3s linear infinite;
+    
 }
 @keyframes orbit5{
     from{ transform: rotate(0deg)translate(33px) rotate(0deg);}
@@ -173,6 +194,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 10;
+    margin-top: 20px;
 }
 .mars{
     height: 30px;
@@ -187,6 +209,7 @@
     transform: translate(-50%, -50%);
     animation: orbit6 30s linear infinite;
     cursor: pointer;
+    
 }
 @keyframes orbit6{
     from{ transform: rotate(0deg)translate(185px) rotate(0deg);}
@@ -206,6 +229,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 9;
+    margin-top: 20px;
 }
 .jupiter{
     height: 50px;
@@ -220,6 +244,7 @@
     transform: translate(-50%, -50%);
     animation: orbit7 90s linear infinite;
     cursor: pointer;
+    
 }
 @keyframes orbit7{
     from{ transform: rotate(0deg)translate(217px) rotate(0deg);}
@@ -240,6 +265,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 8;
+    margin-top: 20px;
 }
 .saturn{
     height: 50px;
@@ -254,6 +280,7 @@
     transform: translate(-50%, -50%);
     animation: orbit9 150s linear infinite;
     cursor: pointer;
+    
 }
  @keyframes orbit9{
     from{ transform: rotate(0deg)translate(250px) rotate(0deg);}
@@ -273,6 +300,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     z-index: 1;
+    margin-top: 20px;
 }
 .uranus{
     height: 30px;
@@ -287,6 +315,7 @@
     transform: translate(-50%, -50%);
     animation: orbit10 200s linear infinite;
     cursor: pointer;
+    
     
 }
 
@@ -309,6 +338,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    margin-top: 20px;
     
 }
 .neptune{
@@ -324,6 +354,7 @@
     transform: translate(-50%, -50%);
     animation: orbit11 100s linear infinite;
     cursor: pointer;
+    
 }
  @keyframes orbit11{
     from{ transform: rotate(0deg)translate(310px) rotate(0deg);}
