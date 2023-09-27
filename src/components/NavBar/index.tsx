@@ -16,11 +16,11 @@ export function NavBar(){
         <div className='bot'>
           <div className='planets-t'>
             <img src={Saturn} className='imag' alt='saturn'/>
-            <p className='text'>Exercices</p>
+            <p className='text'>Notss</p>
           </div>
           <div className='planets-t'>
             <img src={venus} className='imag' alt='saturn'/>
-            <p className='text'>Notss</p>
+            <p className='text'>Financer</p>
           </div>
           <div className='planets-t'>
             <img src={terra} className='imag' alt='saturn'/>
@@ -28,7 +28,7 @@ export function NavBar(){
           </div>
           <div className='planets-t'>
             <img src={marte} className='imag' alt='saturn'/>
-            <p className='text'>Financer</p>
+            <p className='text'>Habilidades</p>
           </div>
           <div className='planets-t'>
             <div className='soll'></div>
@@ -40,11 +40,11 @@ export function NavBar(){
           </div>
           <div className='planets-t'>
             <img src={jupiter} className='imag' alt='saturn'/>
-            <p className='text'>Ig-news</p>
+            <p className='text'>Experiencias</p>
           </div>
           <div className='planets-t'>
             <img src={uranus} className='imag' alt='saturn'/>
-            <p className='text'>Experiencias</p>
+            <p className='text'>Ig-news</p>
           </div>
           <div className='planets-t'>
             <img src={neptune} className='imag' alt='saturn'/>

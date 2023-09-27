@@ -2,6 +2,12 @@ import { useState } from 'react';
 import './styles.css'
 import '../../styless.css'
 
+import close from "../../images/icon.png"
+import eu from "../../images/unnamedd.jpg"
+import mim from "../../images/mim.png"
+import Skills from "../../images/skills.png"
+
+
 import Modal from 'react-modal';
 
 
@@ -129,9 +135,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>solll</p>
-        <button onClick={closeModal1}>Fechar</button>
+        <img src={close} alt='close' onClick={closeModal1} className='close'/>
+        <img src={eu} alt='eu' className='eu'/>
+        <h2 className='ola'>ola a todos! Eu sou <span> Gabriel wanderley </span></h2>
+        <h3 className='work'>Desenvolvedor web / Analista e desenvolvedor de sistemas</h3>
+        <p className='resto'>Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades,para saber um pouco mais</p>
+        <button className='modal-button'>clique aqui</button>
       </Modal>
         <div className={`sun-container ${z ? 'z' : ''}`} onClick={()=>{openModal1(); openz();}}>
 
@@ -146,9 +155,14 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>mercurio</p>
-        <button onClick={closeModal2}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal1} className='close'/>
+       <img src={mim} alt='mim' className='eu'/>
+
+        <h2 className='pouco'><span>Um pouco sobre mim</span></h2>
+        <h3 className='work'>Desenvolvedor web</h3>
+        <p>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade e fazendo alguns projetos, meu nivel atual de ingles é intermediario, para saber um pouco mais </p>
+        <button className='modal-button'>clique aqui</button>
+
       </Modal>
 
         <div className={`mercury-outline ${z ? 'z' : ''}`} onClick={()=>{openModal2(); openz();}}>
@@ -206,9 +220,22 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>marte</p>
-        <button onClick={closeModal5}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal5} className='close'/>
+       <img src={Skills} alt='mim' className='eu'/>
+       <h1 className='pouco'><span>Habilidades</span></h1>
+       <h3 className='work'>O quanto eu domino de</h3>
+       <h2>React</h2>
+       <div className='content-re'>
+        <div className='re'></div>
+       </div>
+       <h2>Typescript</h2>
+       <div className='content-re'>
+        <div className='type'></div>
+       </div>
+         
+         <p className='mt'>Para saber um pouco mais</p>
+        <button className='modal-button'><span>clique aqui</span></button> 
+
       </Modal>
 
         <div className={`mars-outline ${z ? 'z' : ''}`} onClick={()=>{openModal5(); openz();}}>
