@@ -6,7 +6,12 @@ import close from "../../images/icon.png"
 import eu from "../../images/unnamedd.jpg"
 import mim from "../../images/mim.png"
 import Skills from "../../images/skills.png"
-
+import avat from '../../images/avatar.svg'
+import financer from '../../images/financer.png'
+import facul from '../../images/faculdade.png'
+import notss from '../../images/notsss.png'
+import exp from '../../images/projects.png'
+import cont from '../../images/contact.png'
 
 import Modal from 'react-modal';
 
@@ -155,12 +160,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-       <img src={close} alt='close' onClick={closeModal1} className='close'/>
+       <img src={close} alt='close' onClick={closeModal2} className='close'/>
        <img src={mim} alt='mim' className='eu'/>
 
         <h2 className='pouco'><span>Um pouco sobre mim</span></h2>
         <h3 className='work'>Desenvolvedor web</h3>
-        <p>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade e fazendo alguns projetos, meu nivel atual de ingles é intermediario, para saber um pouco mais </p>
+        <p className='resto'>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade enquanto faço alguns projetos e estudo alguns cursos, meu nivel atual de ingles é intermediario, para saber um pouco mais </p>
         <button className='modal-button'>clique aqui</button>
 
       </Modal>
@@ -180,9 +185,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>venus</p>
-        <button onClick={closeModal3}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal3} className='close'/>
+        <img src={financer} alt='mim' className='eu'/> 
+        <h2 className='pouco'> <span>Financer</span> </h2>
+        <h3 className='work'>Projeto</h3>
+        <p className='resto'>Foi um projeto que desenvolvi, com o intuito de fazer sua organizção financeira, nele podera calcular seus gatos e lucros mensais, para saber um pouco mais</p>
+        <button className='modal-button'>clique aqui</button>
       </Modal>
         <div className={`venus-outline ${z ? 'z' : ''}`} onClick={()=>{openModal3(); openz();}}>
                 <div className="venus">
@@ -198,9 +206,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>terra</p>
-        <button onClick={closeModal4}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal4} className='close'/>
+        <img src={facul} alt='mim' className='eu'/>  
+        <h2 className='pouco'> <span>Faculdade</span> </h2>
+        <h3 className='work'>Analise e desenvolvimento de sistemas</h3>
+        <p className='resto'>A faculdade está impulsionando meus estudos, tenho aulas de programação a sistemas em si, aprendo da estrutura de um computador, até aos bits e como entendelos, para saber um pouco mais</p>
+        <button className='modal-button'>clique aqui</button>
       </Modal>
 
             <div className={`earth-outline ${z ? 'z' : ''}`} onClick={()=>{openModal4(); openz();}}>
@@ -232,7 +243,6 @@ return(
        <div className='content-re'>
         <div className='type'></div>
        </div>
-         
          <p className='mt'>Para saber um pouco mais</p>
         <button className='modal-button'><span>clique aqui</span></button> 
 
@@ -251,9 +261,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>jupiter</p>
-        <button onClick={closeModal6}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal6} className='close'/>
+        <img src={exp} alt='mim' className='eu'/> 
+        <h2 className='pouco'> <span>Experiencias</span> </h2>
+        <h3 className='work'>Projetos</h3>
+        <p className='resto'> minha maior fonte de experiencias vem dos meus projetos, em que trabalho com diversas tecnoligias e me aperfeiçoou junto com eles, para saber um pouco mais</p>
+        <button className='modal-button'>clique aqui</button>
       </Modal>
 
             <div className={`jupiter-outline ${z ? 'z' : ''}`} onClick={()=>{openModal6(); openz();}}>
@@ -269,9 +282,12 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>saturn</p>
-        <button onClick={closeModal7}>Fechar</button>
+       <img src={close} alt='close' onClick={closeModal7} className='close'/>
+       <img src={notss} alt='mim' className='eu'/> 
+        <h2 className='pouco'> <span>Notss</span> </h2>
+        <h3 className='work'>Projeto</h3>
+        <p className='resto'> Notss é um projeto onde você pode fazer anotações e pode editalas, da forma que desejar melhor, para saber um pouco mais</p>
+        <button className='modal-button'>clique aqui</button>
       </Modal>
             <div className={`saturn-outline ${z ? 'z' : ''}`} onClick={()=>{openModal7(); openz();}}>
                 <div className="saturn">
@@ -285,9 +301,13 @@ return(
         onRequestClose={closeModal8}
         contentLabel="Exemplo Modal"
       >
-        <h2>Título do Modal</h2>
-        <p>uranus</p>
-        <button onClick={closeModal8}>Fechar</button>
+      <img src={close} alt='close' onClick={closeModal8} className='close'/>
+       <img src={avat}alt='mim' className='eu'/>
+       <h2 className='pouco'><span>Ig-news</span></h2>
+        <h3 className='work'>Projeto</h3>
+        <p className='resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que faer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados, para saber um pouco mais  </p>
+        <button className='modal-button'>clique aqui</button>
+        
       </Modal>
             <div className={`uranus-outline ${z ? 'z' : ''}`} onClick={()=>{openModal8(); openz();}}>
                                 <div className="uranus" >
@@ -301,9 +321,19 @@ return(
         contentLabel="Exemplo Modal"
         className='modall'
       >
-        <h2>Título do Modal</h2>
-        <p>Conteúdo do modal...</p>
-        <button onClick={closeModal9}>Fechar</button>
+      <img src={close} alt='close' onClick={closeModal9} className='close'/>
+        <img src={cont}alt='mim' className='eu'/> 
+       <h2 className='pouco'><span>Contatos</span></h2>
+        <h3 className='work'>emails, links e numeros</h3>
+        <ul className='links'>
+           <li><a href="gabriewanderley08gmail.com" >gabriewanderley08gmail.com</a></li>
+           <li><a href='https://www.linkedin.com/in/gabriel-wanderley-600b24234/'>Linkedin</a></li>
+           <li><a href='https://www.instagram.com/gabriel.wanderley/'>Instagram</a></li>
+           <li><p>(81)995037414</p></li>
+           <li><a href="https://api.whatsapp.com/send?phone=81995037414">Whatsapp</a></li>
+        </ul>
+
+        <button className='modal-button'>clique aqui</button>
       </Modal>
             <div className={`neptune-outline ${z ? 'z' : ''}`} onClick={()=>{openModal9(); openz();}}>
                 <div className="neptune">

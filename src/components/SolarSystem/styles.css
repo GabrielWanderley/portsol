@@ -75,6 +75,20 @@
 .mt{
     margin-top: 10px;
 }
+ a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+
+}
+.links{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-right: 40px;
+}
 
 /* loader marte */
 .re {
