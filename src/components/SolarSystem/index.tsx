@@ -31,13 +31,18 @@ export function SolarSystem(){
     const [modal9IsOpen, setModal9IsOpen] = useState(false);
 
 
+    
+
+
     const [z, setz] =useState(false)
 
 
 
     function openModal1 (){
       setz(true)
-      setModal1IsOpen(true)
+      setModal1IsOpen(true)  
+
+      
     }
   
     const closeModal1 = () => {
@@ -133,7 +138,7 @@ export function SolarSystem(){
       }
 
 return(
-    <>        
+    <div className='pf'>        
     <Modal
         isOpen={modal1IsOpen}
         onRequestClose={closeModal1}
@@ -341,7 +346,7 @@ return(
 
                 </div>
             </div>
-      </>
+      </div>
     
 )
 
