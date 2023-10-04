@@ -67,16 +67,46 @@ font-size: 15px;
     
 }
 
-.modau{
-        position: relative;
-    top: 50%;
+.modalb{
+  text-align: center; 
+  background-color: rgba(255, 255, 255, 0.256);;
+
+}
+
+.modal-bo{
+    background-color:rgb(3, 0, 42) ;
+    color: white;
+
+}
+.bo-eu{
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    top: 27%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(3, 0, 42);
-    height: 500px;
-    width: 500px;
-    color: beige;
-    z-index: 10;
-    text-align: center; 
-    justify-content: center; 
+}
+.bo-ola{
+    padding-top: 280px;
+}
+.bo-ola span{
+    color: #f9e4b7;
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bo-pouco{
+    padding-top: 280px;
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bo-work{
+    background-color: rgb(255, 140, 32);
+    color: black;
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 100% ;
+    
+}
+.bo-resto{
+  padding-left: 50px;
+   width: 400px;
 }

@@ -146,7 +146,7 @@ return(
         className='modall'
       >
         <img src={close} alt='close' onClick={closeModal1} className='close'/>
-        <img src={eu} alt='eu' className='eu'/>
+        <img src={eu} alt='eu' className='euu'/>
         <h2 className='ola'>ola a todos! Eu sou <span> Gabriel wanderley </span></h2>
         <h3 className='work'>Desenvolvedor web / Analista e desenvolvedor de sistemas</h3>
         <p className='resto'>Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades,para saber um pouco mais</p>
@@ -163,7 +163,7 @@ return(
         isOpen={modal2IsOpen}
         onRequestClose={closeModal2}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
        <img src={close} alt='close' onClick={closeModal2} className='close'/>
        <img src={mim} alt='mim' className='eu'/>
@@ -188,7 +188,7 @@ return(
         isOpen={modal3IsOpen}
         onRequestClose={closeModal3}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
        <img src={close} alt='close' onClick={closeModal3} className='close'/>
         <img src={financer} alt='mim' className='eu'/> 
@@ -209,7 +209,7 @@ return(
         isOpen={modal4IsOpen}
         onRequestClose={closeModal4}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
        <img src={close} alt='close' onClick={closeModal4} className='close'/>
         <img src={facul} alt='mim' className='eu'/>  
@@ -264,10 +264,10 @@ return(
         isOpen={modal6IsOpen}
         onRequestClose={closeModal6}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
        <img src={close} alt='close' onClick={closeModal6} className='close'/>
-        <img src={exp} alt='mim' className='eu'/> 
+        <img src={exp} alt='mim' className='eux'/> 
         <h2 className='pouco'> <span>Experiencias</span> </h2>
         <h3 className='work'>Projetos</h3>
         <p className='resto'> minha maior fonte de experiencias vem dos meus projetos, em que trabalho com diversas tecnoligias e me aperfeiçoou junto com eles, para saber um pouco mais</p>
@@ -285,7 +285,7 @@ return(
         isOpen={modal7IsOpen}
         onRequestClose={closeModal7}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
        <img src={close} alt='close' onClick={closeModal7} className='close'/>
        <img src={notss} alt='mim' className='eu'/> 
@@ -301,7 +301,7 @@ return(
             </div>
 
             <Modal
-        className='modall'
+        className='modal2'
         isOpen={modal8IsOpen}
         onRequestClose={closeModal8}
         contentLabel="Exemplo Modal"
@@ -310,7 +310,7 @@ return(
        <img src={avat}alt='mim' className='eu'/>
        <h2 className='pouco'><span>Ig-news</span></h2>
         <h3 className='work'>Projeto</h3>
-        <p className='resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que faer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados, para saber um pouco mais  </p>
+        <p className='resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que fazer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados, para saber um pouco mais  </p>
         <button className='modal-button'>clique aqui</button>
         
       </Modal>
@@ -324,7 +324,7 @@ return(
         isOpen={modal9IsOpen}
         onRequestClose={closeModal9}
         contentLabel="Exemplo Modal"
-        className='modall'
+        className='modal2'
       >
       <img src={close} alt='close' onClick={closeModal9} className='close'/>
         <img src={cont}alt='mim' className='eu'/> 

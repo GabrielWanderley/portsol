@@ -9,7 +9,20 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(3, 0, 42);
-    height: 500px;
+    height: 600px;
+    width: 500px;
+    color: beige;
+    z-index: 10;
+    text-align: center; 
+    justify-content: center; 
+}
+.modal2{  
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(3, 0, 42);
+    height: 550px;
     width: 500px;
     color: beige;
     z-index: 10;
@@ -47,6 +60,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.euu{
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 20px;
+}
+.eux{
+    height: 275px;
+    width: 375px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .ola{
     padding-top: 280px;
 }
@@ -66,8 +96,8 @@
     font-size: 14px;
 }
 .resto{
-  padding-left: 50px;
-   width: 400px;
+   width: 450px;
+   margin-left: 23px;
 }
 
 .mt{
