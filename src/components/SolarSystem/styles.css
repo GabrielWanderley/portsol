@@ -1,21 +1,6 @@
-.pf{
-    z-index: 0;
-}
+
 /* modal  */
 
-.modall{  
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(3, 0, 42);
-    height: 600px;
-    width: 500px;
-    color: beige;
-    z-index: 10;
-    text-align: center; 
-    justify-content: center; 
-}
 .modal2{  
     position: relative;
     top: 50%;
