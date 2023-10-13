@@ -120,7 +120,7 @@ export function NavBar() {
 
 
   return (
-    <div className='bot'>
+    <div className='bot animate__animated  animate__bounceIn'>
 
       <Modal
         onHide={closeModal2}

@@ -111,7 +111,7 @@ export function SolarSystem() {
   }
 
   return (
-    <div>
+    <div className='pf animate__animated  animate__bounceIn'>
 
       <Modal
         onHide={closeModal1}

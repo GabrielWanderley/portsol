@@ -5,9 +5,9 @@ import { Port } from "../../components/port"
 
 export function Home(){
     return(
-        <div className="App">
+        <div > 
         <NavBar/>
-        <SolarSystem/>
+        <SolarSystem/>    
         <Port/>
         </div>
     )
