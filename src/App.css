@@ -1,9 +1,30 @@
 .App {
   text-align: center;
+
 }
 body{
   margin: 0px;
   padding: 0px;
-  background-image: url(./images/star3.webp);
-  background-size: 100%;
+  background-image: url('./images/star3.webp');
+  
 }
+
+.introduction{
+  
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.astro{
+  width: 625px;
+}
+.inicio{
+  color: beige;
+
+}
+.inicio span{
+  color: rgb(255, 140, 32);
+}
+
+
