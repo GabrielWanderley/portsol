@@ -1,0 +1,53 @@
+.eu-lport{
+    background-color: rgb(1, 0, 15);
+    padding-top: 120px;
+    color: white;
+    padding-bottom: 90px;
+}
+
+
+.container-left{
+    display: flex;
+    
+}
+
+
+
+.img-r{ 
+    width: 400px;
+    margin-left: 350px;
+}
+
+.text-left{
+    margin-top: 70px;
+    width: 600px;
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.bor-l{
+    position: absolute;
+    width: 150px;
+    
+}
+.borr-l{
+margin-left: 200px;
+margin-bottom: 60px;
+}
+.porte-l{
+    position: absolute;
+}
+.title-port-l{
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f9e4b7;
+    font-size: 32px;
+    
+}
+.title-port-l span{
+    color: rgb(255, 140, 32);
+}
+
+.text-port-l{
+    font-size: 19px;
+}

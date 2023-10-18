@@ -1,0 +1,20 @@
+.video-content{
+    background-color: rgb(1, 0, 15);
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+
+.img-video{
+    
+    width: 350px;
+    
+}
+.titulo-video{
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 140, 32);
+    margin-bottom: 15px;
+}
+.video{
+    border: solid 1px   #f9e4b7;
+    
+}

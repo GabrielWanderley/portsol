@@ -1,0 +1,19 @@
+.contatos-container{
+    background-color: rgb(1, 0, 15);
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+.phone{
+    height: 375px;
+}
+
+.contatos-container h1{
+    color: rgb(255, 140, 32);
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contatos-container li{
+    color: #f9e4b7;
+}
+.contatos-container a{
+    color: #f9e4b7;
+}

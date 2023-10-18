@@ -1,0 +1,54 @@
+.eu-port{
+    background-color: rgb(1, 0, 15);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: white;
+
+}
+
+
+.container-right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.img-l{ 
+    margin-right: 350px;
+    width: 400px;
+}
+
+.text-rigth{
+    max-width: 600px;
+    margin-right: 90px;
+    display: inline-block;
+    position: relative
+
+}
+
+.bor{
+    position: absolute;
+    width: 150px;
+    
+}
+.borr{
+margin-right: 700px;
+margin-bottom: 60px;
+}
+.porte{
+    position: absolute;
+}
+.title-port{
+    font-family: 'Roboto mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #f9e4b7;
+    font-size: 32px;
+    
+}
+.title-port span{
+    color: rgb(255, 140, 32);
+}
+
+.text-port{
+    font-size: 19px;
+}
