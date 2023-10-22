@@ -6,7 +6,7 @@ import { LeftText } from "../../components/leftText"
 import { Habilities } from "../../components/Habilities"
 
 
-import eu from '../../images/unnamedd.jpg'
+import eu from '../../images/unnamedd.png'
 import bor from '../../images/pink.png'
 import mim from "../../images/mim.png"
 import blue from "../../images/blue.png"

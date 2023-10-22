@@ -524,3 +524,13 @@ li{
     from{ transform: rotate(0deg)translate(310px) rotate(0deg);}
     to{ transform: rotate(360deg)translate(310px) rotate(-360deg);}
 } 
+
+/* widht 767 */
+@media(max-width:767px){
+
+    .pf{
+        margin-top: 400px;
+        
+    }
+
+}

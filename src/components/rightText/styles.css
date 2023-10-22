@@ -1,6 +1,6 @@
 .eu-port{
     background-color: rgb(1, 0, 15);
-    padding-top: 100px;
+    padding-top: 95px;
     padding-bottom: 30px;
     color: white;
 
@@ -51,4 +51,57 @@ margin-bottom: 60px;
 
 .text-port{
     font-size: 19px;
+}
+@media (min-width: 769px) and (max-width:1440px){
+    .img-l{ 
+        width: 400px;
+        margin-right: 230px;
+        margin-left: 70px;
+    }
+}
+@media (min-width: 391px) and (max-width:768px){
+
+    .eu-port{
+        padding-bottom: 500px;
+    }
+    .container-right{
+        display: inline;
+    }
+    .img-l{ 
+        width: 400px;
+        margin-left: 170px;
+        position: relative;
+    }
+    .text-rigth{
+        margin-top: 0x;
+        margin-right: 0px;
+        display: flex;
+        width: 600px;
+        position: absolute;
+        margin-left: 90px;
+       
+    }
+}
+@media (max-width:391px){
+
+    .eu-port{
+        padding-bottom: 400px;
+    }
+    .container-right{
+        display: inline;
+    }
+    .img-l{ 
+        width: 350px;
+        margin-left: 0px;
+        position: relative;
+    }
+    .text-rigth{
+        margin-top: 0x;
+        margin-right: 50px;
+        display: flex;
+        width:350px;
+        position: absolute;
+        margin-left: 10px;
+       
+    }
 }

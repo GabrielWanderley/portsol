@@ -1,6 +1,8 @@
 .cards{
     background-color: rgb(1, 0, 15);
     padding-top: 200px;
+    
+    
 }
 .astromon{
     width: 400px;
@@ -217,5 +219,41 @@
     }
     100% { 
         width: 50%; 
+    }
+  }
+
+
+
+  @media (min-width: 769px) and (max-width:1440px){
+    .card-body{
+      display: flex;
+      padding-bottom: 250px;
+    }
+    .card{
+      margin-top: 15px;
+      margin-left: 125px;
+    }
+  }
+
+  @media (min-width: 391px) and (max-width:768px){
+    .card-body{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .card{
+      margin-top: 15px;
+      margin-left: 80px;
+    }
+  }
+
+  @media (max-width:391px){
+
+    .card-body{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+      margin-top: 15px;
+      margin-left: 80px;
     }
   }

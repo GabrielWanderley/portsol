@@ -16,7 +16,7 @@ import { useState } from 'react'
 
 
 import close from "../../images/icon.png"
-import eu from "../../images/unnamedd.jpg"
+import eu from "../../images/unnamedd.png"
 import mim from "../../images/mim.png"
 import Skills from "../../images/skills.png"
 import avat from '../../images/avatar.svg'
@@ -126,7 +126,9 @@ export function NavBar() {
         onHide={closeModal2}
         show={modal2IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+       <div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal2} className='close' />
           <img src={notss} alt='mim' className='bo-eu' />
@@ -135,6 +137,8 @@ export function NavBar() {
           <p className='bo-resto'> Notss é um projeto onde você pode fazer anotações e pode editalas, da forma que desejar melhor, para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal2}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal2}>
@@ -146,7 +150,9 @@ export function NavBar() {
         onHide={closeModal3}
         show={modal3IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+ <div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal3} className='close' />
           <img src={financer} alt='mim' className='bo-eu' />
@@ -155,6 +161,8 @@ export function NavBar() {
           <p className='bo-resto'>Foi um projeto que desenvolvi, com o intuito de fazer sua organizção financeira, nele podera calcular seus gatos e lucros mensais, para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal3}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal3}>
@@ -167,7 +175,9 @@ export function NavBar() {
         onHide={closeModal4}
         show={modal4IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+   <div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal4} className='close' />
           <img src={facul} alt='mim' className='bo-eu' />
@@ -176,6 +186,8 @@ export function NavBar() {
           <p className='bo-resto'>A faculdade está impulsionando meus estudos, tenho aulas de programação a sistemas em si, aprendo da estrutura de um computador, até aos bits e como entendelos, para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal4}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal4}>
@@ -188,7 +200,9 @@ export function NavBar() {
         onHide={closeModal5}
         show={modal5IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+<div className='modal-content'>
         <Modal.Body className='modal-bo'>
 
           <img src={close} alt='close' onClick={closeModal5} className='close' />
@@ -206,6 +220,8 @@ export function NavBar() {
           <p className='mt'>Para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal5}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal5}>
@@ -218,7 +234,9 @@ export function NavBar() {
         onHide={closeModal1}
         show={modal1IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+<div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal1} className='close' />
           <img src={eu} alt='eu' className='bo-eu' />
@@ -227,11 +245,13 @@ export function NavBar() {
           <p className='bo-resto'>Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades,para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal1}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={Modal1}>
         <div className='soll'></div>
-        <p className='text'><span>...</span>Eu<span>...</span></p>
+        <p className='text'>Eu</p>
       </div>
 
 
@@ -239,7 +259,10 @@ export function NavBar() {
         onHide={closeModal6}
         show={modal6IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+
+<div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal6} className='close' />
           <img src={mim} alt='mim' className='bo-eu' />
@@ -249,6 +272,8 @@ export function NavBar() {
           <p className='bo-resto'>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade enquanto faço alguns projetos e estudo alguns cursos, meu nivel atual de ingles é intermediario, para saber um pouco mais </p>
           <button className='modal-button' onClick={closeModal6}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal6}>
@@ -261,7 +286,9 @@ export function NavBar() {
         onHide={closeModal7}
         show={modal7IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+ <div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal7} className='close' />
           <img src={exp} alt='mim' className='eux' />
@@ -270,6 +297,8 @@ export function NavBar() {
           <p className='bo-resto'> minha maior fonte de experiencias vem dos meus projetos, em que trabalho com diversas tecnoligias e me aperfeiçoou junto com eles, para saber um pouco mais</p>
           <button className='modal-button' onClick={closeModal7}>clique aqui</button>
         </Modal.Body>
+</div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal7}>
@@ -282,7 +311,9 @@ export function NavBar() {
         onHide={closeModal8}
         show={modal8IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
+        <div className='modal-content'>
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal8} className='close' />
           <img src={avat} alt='mim' className='bo-eu' />
@@ -291,6 +322,8 @@ export function NavBar() {
           <p className='bo-resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que fazer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados, para saber um pouco mais  </p>
           <button className='modal-button' onClick={closeModal8}>clique aqui</button>
         </Modal.Body>
+        </div>
+
 
       </Modal>
       <div className='planets-t' onClick={openModal8}>
@@ -304,8 +337,10 @@ export function NavBar() {
         onHide={closeModal9}
         show={modal9IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
-        <Modal.Body className='modal-bo'>
+        <div className='modal-content'>
+                  <Modal.Body className='modal-bo' >
           <img src={close} alt='close' onClick={closeModal9} className='close' />
           <img src={cont} alt='mim' className='bo-eu' />
           <h2 className='bo-pouco'><span>Contatos</span></h2>
@@ -319,9 +354,11 @@ export function NavBar() {
           </ul>
           <button className='modal-button' onClick={closeModal9}>clique aqui</button>
         </Modal.Body>
+        </div>
+
 
       </Modal>
-      <div className='planets-t' onClick={openModal9}>
+      <div className='planets-t ' onClick={openModal9}>
         <img src={neptune} className='imag' alt='saturn' />
         <p className='text'>Contatos</p>
       </div>

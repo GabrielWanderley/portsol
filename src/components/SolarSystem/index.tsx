@@ -3,7 +3,7 @@ import './styles.css'
 import '../../styless.css'
 
 import close from "../../images/icon.png"
-import eu from "../../images/unnamedd.jpg"
+import eu from "../../images/unnamedd.png"
 import mim from "../../images/mim.png"
 import Skills from "../../images/skills.png"
 import avat from '../../images/avatar.svg'
@@ -117,6 +117,7 @@ export function SolarSystem() {
         onHide={closeModal1}
         show={modal1IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal1} className='close' />
@@ -139,6 +140,7 @@ export function SolarSystem() {
         onHide={closeModal2}
         show={modal2IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal2} className='close' />
@@ -165,6 +167,7 @@ export function SolarSystem() {
         onHide={closeModal3}
         show={modal3IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal3} className='close' />
@@ -188,6 +191,7 @@ export function SolarSystem() {
         onHide={closeModal4}
         show={modal4IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal4} className='close' />
@@ -215,6 +219,7 @@ export function SolarSystem() {
         onHide={closeModal5}
         show={modal5IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
 
@@ -247,6 +252,7 @@ export function SolarSystem() {
         onHide={closeModal6}
         show={modal6IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal6} className='close' />
@@ -270,6 +276,7 @@ export function SolarSystem() {
         onHide={closeModal7}
         show={modal7IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal7} className='close' />
@@ -292,6 +299,7 @@ export function SolarSystem() {
         onHide={closeModal8}
         show={modal8IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal8} className='close' />
@@ -313,6 +321,7 @@ export function SolarSystem() {
         onHide={closeModal9}
         show={modal9IsOpen}
         className='modalb'
+        dialogClassName='custom-modal'
       >
         <Modal.Body className='modal-bo'>
           <img src={close} alt='close' onClick={closeModal9} className='close' />

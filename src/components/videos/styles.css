@@ -18,3 +18,11 @@
     border: solid 1px   #f9e4b7;
     
 }
+
+@media (max-width:391px){
+    .video{
+        border: solid 1px   #f9e4b7;
+        width: 350px;
+    }
+
+}
