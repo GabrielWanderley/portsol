@@ -32,7 +32,8 @@ export function Home(){
         srcone={eu} 
         srctwo={bor} 
         title='Olá a todos eu me chamo <br/> <span>Gabriel wanderley <span/>'
-        text='Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades com Typescript, além de já ter feitos projetos com o Next e ter uma boa experiencia com Javascript, tenho conhecimento em backend, já trabalhei ultilizando o Prismic como armazenamento e o Fauna como banco de dados, e tenho interesse em aprender muito mais'/>
+        text='Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades com Typescript, além de já ter feitos projetos com o Next e ter uma boa experiencia com Javascript, tenho conhecimento em backend, já trabalhei ultilizando o Prismic como armazenamento e o Fauna como banco de dados, e tenho interesse em aprender muito mais'
+        id="1"/>
         <Videos
           titulov="Ig.news"
           video={ig}
@@ -49,7 +50,9 @@ export function Home(){
         srcone={exp} 
         srctwo={pla} 
         title='De onde vem minhas <br/> <span> experiencias <span/>'
-        text='Minha maior fonte de experiência vem dos meus próprios projetos, onde mergulho de cabeça em um universo de tecnologias diversas. Ao trabalhar com uma gama variada de ferramentas, aprimoro minhas habilidades em cada uma delas, enriquecendo assim minha bagagem profissional.'/>
+        text='Minha maior fonte de experiência vem dos meus próprios projetos, onde mergulho de cabeça em um universo de tecnologias diversas. Ao trabalhar com uma gama variada de ferramentas, aprimoro minhas habilidades em cada uma delas, enriquecendo assim minha bagagem profissional.'
+        id="2"
+        />
         <Videos
           titulov="Financer"
           video={fina}
@@ -64,7 +67,9 @@ export function Home(){
         srcone={nots} 
         srctwo={blue} 
         title=' <span> Notss <span/>'
-        text='O Notss é um projeto que permite fazer anotações e editá-las conforme sua preferência. Seja para organizar ideias, planejar projetos ou simplesmente capturar pensamentos espontâneos'/>
+        text='O Notss é um projeto que permite fazer anotações e editá-las conforme sua preferência. Seja para organizar ideias, planejar projetos ou simplesmente capturar pensamentos espontâneos'
+        id="3"
+        />
         <Contacts/>
         </div>
     )

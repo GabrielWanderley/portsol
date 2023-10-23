@@ -8,6 +8,7 @@ interface RT{
   srctwo: string,
   title: string,
   text: string,
+  id: string,
 }
 export function RightText( props : RT){
     const { ref, inView } = useInView({
@@ -16,7 +17,7 @@ export function RightText( props : RT){
       });
 
     return(
-       <div className='eu-port'>
+       <div className='eu-port' id={props.id}>
         <div className='container-right'>
                 <img src={props.srcone} alt='eu' ref={ref}className={`animate__animated img-l animate__slower ${inView ? 'animate__backInLeft' : ''}`}/>
         <div className='text-rigth'>

@@ -90,6 +90,14 @@ export function NavBar() {
 
   const closeModal6 = () => {
     setModal6IsOpen(false);
+    const destino = document.getElementById('secao-destino');
+
+    // Verificar se o elemento de destino existe
+    if (destino) {
+      // Usar o método scrollIntoView para rolar até a seção de destino
+      destino.scrollIntoView({ behavior: 'smooth' });
+    }
+
   }
 
 
@@ -117,6 +125,7 @@ export function NavBar() {
   const closeModal9 = () => {
     setModal9IsOpen(false);
   }
+
 
 
   return (
