@@ -8,11 +8,13 @@ import neptune from '../../images/neptune.png'
 
 
 
+
+
 import './styles.css'
 
 import { Modal } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState } from 'react'
+import { useState, } from 'react'
 
 
 import close from "../../images/icon.png"
@@ -90,17 +92,9 @@ export function NavBar() {
 
   const closeModal6 = () => {
     setModal6IsOpen(false);
-    const destino = document.getElementById('secao-destino');
-
-    // Verificar se o elemento de destino existe
-    if (destino) {
-      // Usar o método scrollIntoView para rolar até a seção de destino
-      destino.scrollIntoView({ behavior: 'smooth' });
-    }
-
+  
+ 
   }
-
-
 
   function openModal7() {
     setModal7IsOpen(true)
@@ -143,8 +137,8 @@ export function NavBar() {
           <img src={notss} alt='mim' className='bo-eu' />
           <h2 className='bo-pouco'> <span>Notss</span> </h2>
           <h3 className='bo-work'>Projeto</h3>
-          <p className='bo-resto'> Notss é um projeto onde você pode fazer anotações e pode editalas, da forma que desejar melhor, para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal2}>clique aqui</button>
+          <p className='bo-resto'> Notss é um projeto onde você pode fazer anotações e pode editalas, da forma que desejar melhor</p>
+          {/* <button className='modal-button' onClick={closeModal2}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -167,8 +161,8 @@ export function NavBar() {
           <img src={financer} alt='mim' className='bo-eu' />
           <h2 className='bo-pouco'> <span>Financer</span> </h2>
           <h3 className='bo-work'>Projeto</h3>
-          <p className='bo-resto'>Foi um projeto que desenvolvi, com o intuito de fazer sua organizção financeira, nele podera calcular seus gatos e lucros mensais, para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal3}>clique aqui</button>
+          <p className='bo-resto'>Foi um projeto que desenvolvi, com o intuito de fazer sua organizção financeira, nele podera calcular seus gatos e lucros mensais</p>
+          {/* <button className='modal-button' onClick={closeModal3}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -192,8 +186,8 @@ export function NavBar() {
           <img src={facul} alt='mim' className='bo-eu' />
           <h2 className='bo-pouco'> <span>Faculdade</span> </h2>
           <h3 className='bo-work'>Analise e desenvolvimento de sistemas</h3>
-          <p className='bo-resto'>A faculdade está impulsionando meus estudos, tenho aulas de programação a sistemas em si, aprendo da estrutura de um computador, até aos bits e como entendelos, para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal4}>clique aqui</button>
+          <p className='bo-resto'>A faculdade está impulsionando meus estudos, tenho aulas de programação a sistemas em si, aprendo da estrutura de um computador, até aos bits e como entendelos</p>
+          {/* <button className='modal-button' onClick={closeModal4}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -226,8 +220,8 @@ export function NavBar() {
           <div className='content-re'>
             <div className='type'></div>
           </div>
-          <p className='mt'>Para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal5}>clique aqui</button>
+          {/* <p className='mt'>Para saber um pouco mais</p> */}
+          {/* <button className='modal-button' onClick={closeModal5}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -251,8 +245,8 @@ export function NavBar() {
           <img src={eu} alt='eu' className='bo-eu' />
           <h2 className='bo-ola'>ola a todos! Eu sou <span> Gabriel wanderley </span></h2>
           <h3 className='bo-work'>Desenvolvedor web / Analista e desenvolvedor de sistemas</h3>
-          <p className='bo-resto'>Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades,para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal1}>clique aqui</button>
+          <p className='bo-resto'>Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades</p>
+          {/* <button className='modal-button' onClick={closeModal1}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -278,8 +272,9 @@ export function NavBar() {
 
           <h2 className='bo-pouco'><span>Um pouco sobre mim</span></h2>
           <h3 className='bo-work'>Desenvolvedor web</h3>
-          <p className='bo-resto'>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade enquanto faço alguns projetos e estudo alguns cursos, meu nivel atual de ingles é intermediario, para saber um pouco mais </p>
-          <button className='modal-button' onClick={closeModal6}>clique aqui</button>
+          <p className='bo-resto'>gosto de empreender e de trabalhar em equipe, atualmente estou focando na faculdade enquanto faço alguns projetos e estudo alguns cursos, meu nivel atual de ingles é intermediario </p>
+          {/* <button className='modal-button' onClick={closeModal6}>clique aqui </button>*/}
+          
         </Modal.Body>
 </div>
 
@@ -303,8 +298,8 @@ export function NavBar() {
           <img src={exp} alt='mim' className='eux' />
           <h2 className='bo-pouco'> <span>Experiencias</span> </h2>
           <h3 className='bo-work'>Projetos</h3>
-          <p className='bo-resto'> minha maior fonte de experiencias vem dos meus projetos, em que trabalho com diversas tecnoligias e me aperfeiçoou junto com eles, para saber um pouco mais</p>
-          <button className='modal-button' onClick={closeModal7}>clique aqui</button>
+          <p className='bo-resto'> minha maior fonte de experiencias vem dos meus projetos, em que trabalho com diversas tecnoligias e me aperfeiçoou junto com eles</p>
+          {/* <button className='modal-button' onClick={closeModal7}>clique aqui</button> */}
         </Modal.Body>
 </div>
 
@@ -328,8 +323,8 @@ export function NavBar() {
           <img src={avat} alt='mim' className='bo-eu' />
           <h2 className='bo-pouco'><span>Ig-news</span></h2>
           <h3 className='bo-work'>Projeto</h3>
-          <p className='bo-resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que fazer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados, para saber um pouco mais  </p>
-          <button className='modal-button' onClick={closeModal8}>clique aqui</button>
+          <p className='bo-resto'>O Ig-news é um projeto de um blog de noticias, onde o usuario tem que fazer um pagamento de para boter ter acesso as postagens, que vem do meu banco de dados  </p>
+          {/* <button className='modal-button' onClick={closeModal8}>clique aqui</button> */}
         </Modal.Body>
         </div>
 
@@ -358,10 +353,11 @@ export function NavBar() {
             <li><a href="gabriewanderley08gmail.com" >gabriewanderley08gmail.com</a></li>
             <li><a href='https://www.linkedin.com/in/gabriel-wanderley-600b24234/'>Linkedin</a></li>
             <li><a href='https://www.instagram.com/gabriel.wanderley/'>Instagram</a></li>
-            <li><p>(81)995037414</p></li>
             <li><a href="https://api.whatsapp.com/send?phone=81995037414">Whatsapp</a></li>
+            <li><p>(81)995037414</p></li>
+            
           </ul>
-          <button className='modal-button' onClick={closeModal9}>clique aqui</button>
+          {/* <button className='modal-button' onClick={closeModal9}>clique aqui</button> */}
         </Modal.Body>
         </div>
 

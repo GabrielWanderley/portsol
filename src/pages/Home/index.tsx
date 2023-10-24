@@ -33,7 +33,7 @@ export function Home(){
         srctwo={bor} 
         title='Olá a todos eu me chamo <br/> <span>Gabriel wanderley <span/>'
         text='Sou programador e faço faculdade de analise e desenvolvimento de sistemas, gosto das melhores tecnologias, tenho bastante experiencia com React, pratico bastante e sigo evoluindo minhas habilidades com Typescript, além de já ter feitos projetos com o Next e ter uma boa experiencia com Javascript, tenho conhecimento em backend, já trabalhei ultilizando o Prismic como armazenamento e o Fauna como banco de dados, e tenho interesse em aprender muito mais'
-        id="1"/>
+        id="8"/>
         <Videos
           titulov="Ig.news"
           video={ig}

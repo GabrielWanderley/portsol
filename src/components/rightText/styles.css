@@ -52,14 +52,14 @@ margin-bottom: 60px;
 .text-port{
     font-size: 19px;
 }
-@media (min-width: 769px) and (max-width:1440px){
+@media (min-width: 1024px) and (max-width:1440px){
     .img-l{ 
         width: 400px;
         margin-right: 230px;
         margin-left: 70px;
     }
 }
-@media (min-width: 391px) and (max-width:768px){
+@media (min-width: 768px) and (max-width:1023px){
 
     .eu-port{
         padding-bottom: 500px;
@@ -82,7 +82,7 @@ margin-bottom: 60px;
        
     }
 }
-@media (max-width:391px){
+@media (max-width:767px){
 
     .eu-port{
         padding-bottom: 400px;
@@ -92,7 +92,7 @@ margin-bottom: 60px;
     }
     .img-l{ 
         width: 350px;
-        margin-left: 0px;
+        margin-left: 15px;
         position: relative;
     }
     .text-rigth{

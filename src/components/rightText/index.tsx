@@ -17,7 +17,7 @@ export function RightText( props : RT){
       });
 
     return(
-       <div className='eu-port' id={props.id}>
+       <div className='eu-port' id="1">
         <div className='container-right'>
                 <img src={props.srcone} alt='eu' ref={ref}className={`animate__animated img-l animate__slower ${inView ? 'animate__backInLeft' : ''}`}/>
         <div className='text-rigth'>
