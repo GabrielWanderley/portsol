@@ -12,7 +12,7 @@
     align-items: center;
     box-shadow: -4px 2px 56px rgb(8, 0, 93);
     display: flex;
-   
+
 }
 
 .planets-t{
@@ -146,8 +146,9 @@ font-size: 15px;
     }
 
     .bo-resto{
-        max-width: 350px;
-        margin-right: 20px;
+        max-width: 300px;
+        margin-right: 0px;
+        margin-left: 10px;
         padding-left: 0px;
       }
 

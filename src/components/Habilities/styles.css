@@ -1,7 +1,9 @@
 .cards{
     background-color: rgb(1, 0, 15);
     padding-top: 200px;
-    
+    overflow-x: hidden;
+
+
     
 }
 .astromon{
@@ -254,6 +256,6 @@
     }
     .card{
       margin-top: 15px;
-      margin-left: 80px;
+      margin-left: 100px;
     }
   }
