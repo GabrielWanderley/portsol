@@ -2,7 +2,6 @@
     background-color: rgb(1, 0, 15);
     padding-bottom: 50px;
     padding-top:50px;
-    overflow-x: hidden;
 
 
 }
@@ -22,7 +21,7 @@
     
 }
 
-@media (max-width:391px){
+@media (max-width:767px){
     .video{
         border: solid 1px   #f9e4b7;
         width: 350px;

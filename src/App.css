@@ -28,8 +28,8 @@ body{
 }
 
 
-@media (max-width:391px){
+@media (max-width:767px){
   .astro{
-    width: 400px;
+    width: 375px;
   }
 }
