@@ -24,7 +24,7 @@ import { Contacts } from "../../components/Contatos"
 
 export function Home(){
     return(
-        <div > 
+        <div> 
         <NavBar/>
         <SolarSystem/>    
         <Port/>

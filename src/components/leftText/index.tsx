@@ -17,6 +17,7 @@ export function LeftText(props : LT){
     return(
    
        <div className='eu-lport'>
+        <div className='WidthLeft'>
         <div className='container-left'>
         <div className='text-left'>
             <div className='borr-l'>
@@ -29,7 +30,7 @@ export function LeftText(props : LT){
         </div>
                  <img src={props.srcone} alt='eu' ref={ref}className={`animate__animated img-r animate__slower ${inView ? 'animate__backInRight' : ''}`}/>
         </div>  
-             
+        </div>     
        </div>
        
 

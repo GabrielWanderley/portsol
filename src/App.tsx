@@ -33,6 +33,10 @@ function App() {
       setShowIntroduction(false);
     }, 6000);
   }, [])
+
+
+
+
   return (
     <div className="App">
       {showIntroduction && <Introduction />}

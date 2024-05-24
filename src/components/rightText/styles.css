@@ -1,29 +1,30 @@
 .eu-port{
-    background-color: rgb(1, 0, 15);
     padding-top: 95px;
     padding-bottom: 30px;
     color: white;
     overflow-x: hidden;
-
-
 }
 
 
 .container-right{
     display: flex;
     justify-content: flex-end;
+    
 }
 
-
+.widthRight{
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 .img-l{ 
-    margin-right: 350px;
+    margin-right: 120px;
     width: 400px;
 }
 
 .text-rigth{
     max-width: 600px;
-    margin-right: 90px;
+    margin-right: 0px;
     display: inline-block;
     position: relative
 
@@ -107,3 +108,4 @@ margin-bottom: 60px;
        
     }
 }
+

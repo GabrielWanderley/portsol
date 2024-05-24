@@ -78,6 +78,23 @@ export function Habilities() {
                         </div>
                     </div>
                 </div>
+
+                <div className="card">
+                    <div className="card-inner">
+                        <div className="front">
+                            <h1 className='title-card'>
+                                C#
+                            </h1>
+                            <div className='content-rec'>
+                                <div className={inView ? 'next' : ''} ref={ref}></div>
+                            </div>
+                            <p className='p-card'>quer saber um pouco mais? coloque o mouse em cima</p>
+                        </div>
+                        <div className="back">
+                            <p className='back-p'>Trabalho com C# a pouco mais de um ano, estou empenhado em evoluir ainda mais </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

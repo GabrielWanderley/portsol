@@ -1,5 +1,5 @@
 .cards{
-    background-color: rgb(1, 0, 15);
+    /* background-color: rgb(1, 0, 15); */
     padding-top: 200px;
     overflow-x: hidden;
 
@@ -14,16 +14,17 @@
 
     display: flex;
     padding-bottom: 250px;
-
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 
 .card {
-    width: 200px;
-    height: 300px;
+    width: 220px;
+    height: 320px;
     perspective: 1000px;
     background-color:rgb(1, 0, 15) ;
-    margin-left: 150px;
+    margin-left: 50px;
   }
   
   .card-inner {

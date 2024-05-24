@@ -18,6 +18,7 @@ export function RightText( props : RT){
 
     return(
        <div className='eu-port' id="1">
+        <div className='widthRight'>
         <div className='container-right'>
                 <img src={props.srcone} alt='eu' ref={ref}className={`animate__animated img-l animate__slower ${inView ? 'animate__backInLeft' : ''}`}/>
         <div className='text-rigth'>
@@ -28,7 +29,7 @@ export function RightText( props : RT){
             <h1 className='title-port' dangerouslySetInnerHTML={{ __html: props.title }} />
              <h3 className='text-port'> {props.text}</h3>
             </div>
-
+        </div>
         </div>
         </div>
        </div>

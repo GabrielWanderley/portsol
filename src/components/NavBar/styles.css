@@ -2,15 +2,15 @@
 
 *{
     margin: 0px;
-    
+    margin-top: 5px;
 }
 
 .bot{
-    background-color: rgb(3, 0, 42);
+    /* background-color: rgb(3, 0, 42); */
     max-height: 40px;
     justify-content: space-around;
     align-items: center;
-    box-shadow: -4px 2px 56px rgb(8, 0, 93);
+    /* box-shadow: -4px 2px 56px rgb(8, 0, 93); */
     display: flex;
 
 }
